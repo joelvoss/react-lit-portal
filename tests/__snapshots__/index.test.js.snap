@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Portal /> should append nested portals to the same ownerdocument 1`] = `
+<body>
+  <div />
+  <portal>
+    <div>
+      I'm inside a portal
+    </div>
+  </portal>
+  <portal>
+    <div>
+      inner portal
+    </div>
+  </portal>
+</body>
+`;
+
+exports[`<Portal /> should render a portal 1`] = `
+<body>
+  <div />
+  <portal>
+    <div>
+      I'm inside a portal
+    </div>
+  </portal>
+</body>
+`;
+
+exports[`<Portal /> should render a portal as custom element 1`] = `
+<body>
+  <div />
+  <custom-portal>
+    <div>
+      I'm inside a portal
+    </div>
+  </custom-portal>
+</body>
+`;
