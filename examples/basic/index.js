@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { Portal } from '../../src/index';
 
 export function Example() {
